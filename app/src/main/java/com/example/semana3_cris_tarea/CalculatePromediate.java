@@ -79,12 +79,12 @@ public class CalculatePromediate extends AppCompatActivity {
         if (!isEmpty){
             for (int i = 0; i < notas.length; i++){
                 if(notas[i] == null || notas[i].isEmpty()){
-                    Toast.makeText(this,"Escriba todas las notas gonorrea", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this,"Escriba todas las notas ", Toast.LENGTH_LONG).show();
                     isEmpty = true;
                 }else{
                     double number = Double.parseDouble(notas[i]);
                     if (number > 5){
-                        Toast.makeText(this,"las notas van de 0 a 5iempre animal", Toast.LENGTH_LONG).show();
+                        Toast.makeText(this,"las notas van de 0 a 5", Toast.LENGTH_LONG).show();
                         isEmpty = true;
 
                     } else {
